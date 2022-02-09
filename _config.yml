@@ -1,0 +1,140 @@
+# ---- Site Yapılandırması ----
+
+# Tema.
+theme: jekyll-theme-chirpy
+
+# Github Pages kullanıyorsanız ve özel alan adına sahip değilseniz aşağıdaki
+# değeri "/proje_adi" olarak değiştirin.
+baseurl: '/WGEK'
+
+# Site dili. Dil dosyasını "_data/locales" klasörüne koyun, eğer eşleşen dosya
+# bulunmazsa varsayılan (İngilizce - en) değerde çalışacaktır.
+lang: tr-TR
+
+# Tarih/saat yerelleştirmesi için opsiyonel bir değer.
+prefer_datetime_locale: tr
+
+# Saat dilimi.
+timezone: Europe/Istanbul
+
+# jekyll-seo-tag ayarları.
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+title: WGEK
+tagline: <b>Web Geliştiricisinin El</b><del>ektronik</del><b> Kitabı</b>
+description: >-
+  Açıklama
+url: 'https://ygtadk.github.io'
+github:
+  username: ygtadk
+social:
+  name: Yiğit Adak
+  email: ygtadk100@gmail.com
+  links:
+    - https://github.com/ygtadk
+    # İstediğiniz kadar bağlantı ekleyebilirsiniz.
+google_site_verification:
+
+google_analytics:
+  id:
+  pv:
+    proxy_endpoint:
+    cache_path:
+
+theme_mode:
+
+img_cdn:
+
+# Avatar. Yan çubukta görünür.
+avatar: assets/img/wgek-avatar.png
+
+# TOC genel anahtarı.
+toc: true
+
+# Yorum sistemi ayarları.
+comments:
+  active:
+  disqus:
+    shortname:
+  utterances:
+    repo:
+    issue_term:
+
+paginate: 10
+
+# Markdown için gelişmiş Ruby kütüphanesi.
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Kenar çubuğunda sekmeler oluşturmak için kullanıldı.
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true 
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ''
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+# Siteyi inşa ederken hariç tutulacak dosyalar/klasörler.
+exclude:
+  - '*.gem'
+  - '*.gemspec'
+  - tools
+  - README.md
+  - LICENSE
+  - gulpfile.js
+  - node_modules
+  - package*.json
+
+# jekyll-archives ayarları.
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

@@ -1,0 +1,10 @@
+---
+permalink: /robots.txt
+# Robotlar için kurallar :)
+---
+
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

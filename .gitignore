@@ -1,0 +1,28 @@
+### Diğer ###
+!.git*
+
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_drafts/
+
+### RubyGems ###
+*.gem
+
+### npm ###
+node_modules
+package-lock.json
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.vscode/settings.json
+
+

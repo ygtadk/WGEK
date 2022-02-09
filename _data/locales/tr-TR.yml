@@ -1,0 +1,66 @@
+layout:
+  post: Gönderi
+  category: Kategori
+  tag: Etiket
+
+tabs:
+  home: Anasayfa
+  categories: Kategoriler
+  tags: Etiketler
+  archives: Arşiv
+  about: Hakkında
+
+search:
+  hint: Ara
+  cancel: İptal
+  no_results: Üzgünüm, bir şey bulunamadı &#128577;
+
+panel:
+  lastmod: Son Güncellenenler
+  trending_tags: Trend Etiketler
+  toc: İçerikler
+
+copyright:
+  license:
+    template: Bu gönderi :LICENSE_NAME lisansı ile, gönderi sahibi tarafından lisanslanmıştır.
+    name: MIT
+    link: https://github.com/ygtadk/WGEK/blob/main/LICENSE.md
+  brief: Bazı hakları saklıdır.
+  verbose: >-
+    Aksi belirtilmediği sürece, bu sitedeki gönderiler MIT lisansı ile 
+    gönderi sahibi tarafından lisanslanmıştır.
+    
+meta: :THEME teması kullanılarak :PLATFORM ile güçlendirilmiştir.<br>Hosting hizmeti <a href="https://pages.github.com/">GitHub</a> tarafından sağlanmıştır.
+
+not_found:
+  statment: Üzgünüm, URL yanlış yerleştirilmiş veya daha önce hiç oluşturulmamış olabilir.
+  hint_template: :HEAD_BAK anasayfaya dönebilirsin veya :ARCHIVES_PAGE
+  head_back: Buradan
+  archives_page: arşive göz atabilirsin.
+
+post:
+  written_by: Yazar &#58;
+  posted: Yayınlandı &#58;
+  updated: Güncellendi &#58;
+  words: kelimeler
+  pageview_measure: kez bakıldı
+  read_time:
+    unit: dakika
+    prompt: okuma süresi
+  relate_posts: Benzer Yazılar
+  share: Paylaş
+  button:
+    next: Daha Yeni
+    previous: Daha Eski
+    copy_code:
+      succeed: Kopyalandı!
+    share_link:
+      title: Bağlantıyı kopyala
+      succeed: Bağlantı kopyalandı.
+  pin_prompt: Sabitlendi
+
+categories:
+  category_measure: kategoriler
+  post_measure: gönderiler
+
+theme: Temayı Değiştir
