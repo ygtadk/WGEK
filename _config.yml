@@ -17,12 +17,15 @@ prefer_datetime_locale: tr
 # Saat dilimi.
 timezone: Europe/Istanbul
 
+# For Sidebar
+tagline-fsb: <b>Web Geliştiricisinin El</b><del>ektronik</del><b> Kitabı</b>
+
 # jekyll-seo-tag ayarları.
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 title: WGEK
-tagline: <b>Web Geliştiricisinin El</b><del>ektronik</del><b> Kitabı</b>
+tagline: Web Geliştiricisinin Elektronik Kitabı
 description: >-
-  Açıklama
+  Farklı konularda yazılar paylaşılan bir başka blog daha.
 url: 'https://ygtadk.github.io'
 github:
   username: ygtadk
@@ -77,8 +80,15 @@ collections:
   tabs:
     output: true
     sort_by: order
+  subposts:
+    output: true
 
 defaults:
+  - scope:
+      path: ''
+      type: subposts
+    values:
+      permalink: /subposts/:title/
   - scope:
       path: ''
       type: posts
@@ -125,9 +135,12 @@ exclude:
   - tools
   - README.md
   - LICENSE
+  - LİSANS
   - gulpfile.js
   - node_modules
   - package*.json
+  - Dockerfile
+  - _drafts
 
 # jekyll-archives ayarları.
 jekyll-archives:

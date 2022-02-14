@@ -6,7 +6,7 @@ order: 4
 
 <br>
 
-![Ben](/assets/img/posts/about/bne.png){: .shadow width="200" height="200" style="max-width: 130px"}
+![Ben](/media/about/bne.png){: .shadow width="200" height="200" style="max-width: 130px"}
 
 <h1 class="text-center">Merhaba! Ben Yiğit.</h1>
 
@@ -14,6 +14,6 @@ order: 4
 
 Bu blogu, kendi bilgilerimi taze tutmak, yeni öğrendiklerimi kalıcı hale getirmek ve deneyimlerimi paylaşmak için oluşturdum.
 
-İlk başta sadece web geliştirme ile ilgili bildiklerimi paylaşmayı düşünsem de daha sonra başka konularda da paylaşım yapmaya karar verdim. Bu yüzden site ismine çok takılmayın &#128516;
+İlk başta sadece web geliştirme ile ilgili bildiklerimi paylaşmayı düşünsem de daha sonra başka konularda da paylaşım yapmaya karar verdim.
 
 İsteklerinizi, görüşlerinizi, veya tespit ettiğini hataları bana [e-posta](mailto:ygtadk100@gmail.com) ile iletirseniz çok sevinirim.
