@@ -35,10 +35,11 @@ social:
   links:
     - https://github.com/ygtadk
     # İstediğiniz kadar bağlantı ekleyebilirsiniz.
-google_site_verification:
+
+google_site_verification: IMLLK3mDXPMeZ_BNkJ93aYmnBGKbbl5RaGO5V6YaVgQ
 
 google_analytics:
-  id:
+  id: G-JQ4X3JQ8K7
   pv:
     proxy_endpoint:
     cache_path:
