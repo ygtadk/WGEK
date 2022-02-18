@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Github Pages kullanıyorsanız ve özel alan adına sahip değilseniz aşağıdaki
 # değeri "/proje_adi" olarak değiştirin.
-baseurl: '/WGEK'
+baseurl: '/blogum'
 
 # Site dili. Dil dosyasını "_data/locales" klasörüne koyun, eğer eşleşen dosya
 # bulunmazsa varsayılan (İngilizce - en) değerde çalışacaktır.
@@ -18,17 +18,18 @@ prefer_datetime_locale: tr
 timezone: Europe/Istanbul
 
 # For Sidebar
-tagline-fsb: <b>Web Geliştiricisinin El</b><del>ektronik</del><b> Kitabı</b>
+tagline-fsb: Yiğit'in Blogu
 
 # jekyll-seo-tag ayarları.
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-title: WGEK
-tagline: Web Geliştiricisinin Elektronik Kitabı
+title: Blogum
+tagline: Yiğit'in Blogu
 description: >-
   Farklı konularda yazılar paylaşılan bir başka blog daha.
 url: 'https://ygtadk.github.io'
 github:
   username: ygtadk
+  reponame: blogum
 social:
   name: Yiğit Adak
   email: ygtadk100@gmail.com
@@ -39,7 +40,7 @@ social:
 google_site_verification: IMLLK3mDXPMeZ_BNkJ93aYmnBGKbbl5RaGO5V6YaVgQ
 
 google_analytics:
-  id: G-JQ4X3JQ8K7
+  id: G-2Z3P50NFH3
   pv:
     proxy_endpoint:
     cache_path:
@@ -49,7 +50,7 @@ theme_mode:
 img_cdn:
 
 # Avatar. Yan çubukta görünür.
-avatar: assets/img/wgek-avatar.png
+avatar: assets/img/avatar.png
 
 # TOC genel anahtarı.
 toc: true
