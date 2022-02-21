@@ -29,8 +29,8 @@
 
   {% include favicons.html %}
 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   {% if jekyll.environment == 'production'
       and site.google_analytics.id != empty and site.google_analytics.id %}
@@ -63,5 +63,8 @@
 
   <!-- jQuery -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+
+  <!-- Twemoji -->
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 
 </head>

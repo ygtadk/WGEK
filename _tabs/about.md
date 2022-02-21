@@ -12,8 +12,8 @@ order: 4
 
 <br>
 
-Bu blogu, kendi bilgilerimi taze tutmak, yeni öğrendiklerimi kalıcı hale getirmek ve deneyimlerimi paylaşmak için oluşturdum.
+Bu da benim blogum.
 
-İlk başta sadece web geliştirme ile ilgili bildiklerimi paylaşmayı düşünsem de daha sonra başka konularda da paylaşım yapmaya karar verdim.
+İlk başta sadece web geliştirme ile ilgili içerikler paylaşmayı düşünsem de daha sonra başka konularda da paylaşım yapmaya karar verdim.
 
 İsteklerinizi, görüşlerinizi, veya tespit ettiğini hataları bana [e-posta](mailto:ygtadk100@gmail.com) ile iletirseniz çok sevinirim.
