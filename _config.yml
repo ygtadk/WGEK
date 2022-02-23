@@ -17,7 +17,7 @@ prefer_datetime_locale: tr
 # Saat dilimi.
 timezone: Europe/Istanbul
 
-# For Sidebar
+# For SideBar
 tagline-fsb: Yiğit'in Blogu
 
 # jekyll-seo-tag ayarları.
@@ -45,7 +45,7 @@ google_analytics:
     proxy_endpoint:
     cache_path:
 
-theme_mode:
+theme_mode: # Kalıcı olarak karanlık/aydınlık yapılabilir.
 
 img_cdn:
 
@@ -77,7 +77,6 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# Kenar çubuğunda sekmeler oluşturmak için kullanıldı.
 collections:
   tabs:
     output: true
@@ -86,11 +85,6 @@ collections:
     output: true
 
 defaults:
-  - scope:
-      path: ''
-      type: subposts
-    values:
-      permalink: /subposts/:title/
   - scope:
       path: ''
       type: posts
@@ -121,28 +115,18 @@ defaults:
 sass:
   style: compressed
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
-
 # Siteyi inşa ederken hariç tutulacak dosyalar/klasörler.
 exclude:
   - '*.gem'
   - '*.gemspec'
   - tools
   - README.md
-  - LICENSE
-  - LİSANS
+  - LICENSE.md
+  - LİSANS.md
   - gulpfile.js
   - node_modules
   - package*.json
   - Dockerfile
-  - _drafts
 
 # jekyll-archives ayarları.
 jekyll-archives:
