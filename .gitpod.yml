@@ -1,0 +1,17 @@
+image:
+  file: Dockerfile
+
+ports:
+  - port: 4000
+    onOpen: open-browser
+    visibility: private
+tasks:
+  - init: bundle update && bundle install
+    command: bundle exec jekyll serve
+github:
+  prebuilds:
+    master: true
+    branches: false
+    pullRequests: true
+    addCheck: true
+    addComment: false
