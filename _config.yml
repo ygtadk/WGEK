@@ -81,8 +81,6 @@ collections:
   tabs:
     output: true
     sort_by: order
-  subposts:
-    output: true
 
 defaults:
   - scope:
