@@ -64,15 +64,19 @@
 
 <script src="https://cdn.jsdelivr.net/combine/npm/popper.js@1.16.1,npm/bootstrap@4/dist/js/bootstrap.min.js"></script>
 
+<!-- Sadece deploy edildiği zaman dahil edilecekler -->
 {% if jekyll.environment == 'production' %}
   <script defer src="{{ '/app.js' | relative_url }}"></script>
-
+  <!-- Google Analytics -->
   {% if site.google_analytics.id != empty and site.google_analytics.id %}
     {% include google-analytics.html %}
   {% endif %}
-
+  <!-- CountAPI -->
+  <script async src="https://api.countapi.xyz/hit/ygtadk.github.io/3e127108-7b45-4b30-8ef4-c524cadd1ab6?callback=cb"></script>
+  <script> function cb(response) {document.getElementById('visits').innerText = response.value;}</script>
 {% endif %}
 
+<!-- Twemoji -->
 <script>
   twemoji.parse(document.body);
 </script>

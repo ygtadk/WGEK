@@ -11,3 +11,7 @@ platforms:
     type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
+  -
+    type: LinkedIn
+    icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/shareArticle?mini=true&url=URL"
