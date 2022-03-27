@@ -58,13 +58,10 @@ Artık doğru olmayan veya alakasız olan içerikleri vurgulamak için `s` öğe
 <p><s>Fiyat: ₺ 199.99</s></p>
 <p><strong>BUGÜNE ÖZEL TEKLİF: ₺ 159.99!</strong></p>
 ```
-
----
-
+<div>
 <p><s>Fiyat: ₺ 199.99</s></p>
 <p><strong>BUGÜNE ÖZEL TEKLİF: ₺ 159.99!</strong></p>
-
----
+</div>
 
 > Bazı ekran okuyucuları `s` öğesini normal metin olarak duyurabilir, dikkatli kullanılmalıdır.
 {: .prompt-warning }
@@ -81,13 +78,11 @@ Düzenleme hakkında daha fazla bilgi vermek için `cite` niteliğini ve düzenl
 </p>
 ```
 
----
-
+<div>
 <p>
   En sevdiğim programlama dili <del datetime="2022-03-06T16:00:30">Pyhton</del> <ins datetime="2022-03-07T17:00:36">Python</ins> .
 </p>
-
----
+</div>
 
 > `del` öğesi de ekran okuyucular için problem olabilmektedir, `s` öğesi gibi dikkatli kullanılmalıdır.
 {: .prompt-warning }
@@ -129,8 +124,7 @@ Eğer nitelik yoksa, öğenin yazım hataları için kontrol edilip edilmeyeceğ
 
 Aşağıdaki alanlardan birine tıklarsanız (bazı tarayıcılarda içeriğe tıklamanız veya bir şeyler yazmanız gerekebilir), "**looove**" kelimesinin doğru yazılmadığını belirten dalgalı, kesikli veya noktalı kırmızı bir çizgi görmelisiniz.
 
----
-
+<div>
 <div>
   <label for="label1">Etiket</label>
   <input value="I looove coding." id="label1">
@@ -145,8 +139,7 @@ Aşağıdaki alanlardan birine tıklarsanız (bazı tarayıcılarda içeriğe t�
   <strong>Etiket:</strong>
   <div contenteditable>I looove coding.</div>
 </div>
-
----
+</div>
 
 > Sonuçlar tarayıcınıza ve varsayılan dilinize bağlı olarak farklılık gösterebilir. `spellcheck` niteliği yalnızca bir ipucu olarak kullanılır, tarayıcıların yazım hatalarını kontrol etmesi zorunlu değildir.
 {: .prompt-note }
@@ -172,8 +165,7 @@ Aşağıdaki alanlardan birine tıklarsanız (bazı tarayıcılarda içeriğe t�
 
 Aşağıdaki alanlarda bu sefer yazım denetiminin yapılmadığını göreceksiniz.
 
----
-
+<div>
 <div>
   <label for="label1">Etiket</label>
   <input spellcheck="false" value="I looove coding." id="label1">
@@ -188,8 +180,7 @@ Aşağıdaki alanlarda bu sefer yazım denetiminin yapılmadığını göreceksi
   <strong>Etiket:</strong>
   <div spellcheck="false" contenteditable>I looove coding.</div>
 </div>
-
----
+</div>
 
 > Örneklerin çalışma ihtimalini arttırmak için metinleri İngilizce yazdım.
 {: .prompt-note }
@@ -205,11 +196,9 @@ Sadece HTML kullanarak renk seçici oluşturabileceğinizi biliyor muydunuz?
 <label for="renk-secici">Bir Renk Seç</label>
 ```
 
----
-
+<div>
 <input type="color" id="renk-secici" value="#e66465">
 <label for="renk-secici">Bir Renk Seç</label>
-
----
+</div>
 
 
